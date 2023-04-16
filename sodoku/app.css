@@ -1,0 +1,71 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#errors {
+    color: coral;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: azure;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightskyblue;
+    /* text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+    background-color: azure;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid lightseagreen;
+    margin: 2px;
+    /* text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: aquamarine;
+}
+
+.tile-start {
+    background-color: #caf0f8;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid darkcyan;
+}
+
+.vertical-line {
+    border-right: 1px solid darkcyan;
+}
